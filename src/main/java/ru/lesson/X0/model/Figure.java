@@ -1,9 +1,7 @@
 package ru.lesson.X0.model;
 
-public class Figure {
+public enum  Figure {
 
-    static Figure X;
-    static Figure O;
-
+    X, O
 
 }
