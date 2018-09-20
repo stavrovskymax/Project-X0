@@ -27,4 +27,15 @@ public class FieldTest {
 
         assertEquals(inputFigure, actualFigure);
     }
+
+    @Test
+    public void testGetFigureWhenFigureIsNotSet() throws Exception{
+        final Field field = new Field();
+
+        final Point inputPoint = new Point(0, 0);
+
+        final Figure actualFigure = field.getFigure(inputPoint);
+
+        assertNull(actualFigure);
+    }
 }
