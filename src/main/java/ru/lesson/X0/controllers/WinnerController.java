@@ -60,7 +60,7 @@ public class WinnerController {
                 if (check(field, new Point(0, 2), new Point(1, 1), new Point(2, 0)))
                     return field.getFigure(new Point(0, 2));*/
 
-        } catch (InvalidPointException e) {
+        } catch (final InvalidPointException e) {
             e.printStackTrace();
         }
         return null;
@@ -77,7 +77,7 @@ public class WinnerController {
             nextFigure = field.getFigure(nextPoint);
 
             if (currentFigure == null) return false;
-        } catch (InvalidPointException e) {
+        } catch (final InvalidPointException e) {
             return true;
         }
 
