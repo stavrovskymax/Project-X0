@@ -13,7 +13,7 @@ public class GameTest {
         final Player player[] = new Player[1];
         player[0] = new Player(inputPlayer, inputFigure);
 
-        final Field field = new Field();
+        final Field field = new Field(3);
         final Game game = new Game(player, field, inputPlayer);
 
         final Player[] actualValue = game.getPlayers();
