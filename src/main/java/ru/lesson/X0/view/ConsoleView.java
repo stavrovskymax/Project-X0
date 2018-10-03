@@ -1,4 +1,4 @@
-package view;
+package ru.lesson.X0.view;
 
 import ru.lesson.X0.controllers.CurrentMoveController;
 import ru.lesson.X0.controllers.MoveController;
@@ -43,12 +43,11 @@ public class ConsoleView {
                 return false;
             }
         }
-        System.out.format("Please enter move point for: %s", currentFigure);
+        System.out.format("Please enter move point for: %s\n", currentFigure);
         final Point point = askPoint();
         try {
             moveController.applyFigure(field, point, currentFigure);
         } catch (InvalidPointException | AlreadyOccupiedException e) {
-            e.printStackTrace();
             System.out.println("Point is invalid");
         }
         return true;
