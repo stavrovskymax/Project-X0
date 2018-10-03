@@ -12,7 +12,7 @@ public class CurrentMoveController {
         int currentFigure = 0;
 
         for (int x = 0; x < field.getSize(); x++) {
-            currentFigure = countFiguresInTheRow(field, x);
+            currentFigure += countFiguresInTheRow(field, x);
         }
 
         if (currentFigure == field.getSize() * field.getSize())
