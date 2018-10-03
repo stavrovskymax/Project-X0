@@ -4,7 +4,7 @@ import ru.lesson.X0.model.Field;
 import ru.lesson.X0.model.Figure;
 import ru.lesson.X0.model.Game;
 import ru.lesson.X0.model.Player;
-import view.ConsoleView;
+import ru.lesson.X0.view.ConsoleView;
 
 public class XOCLI {
     public static void main(final String[] args) {
@@ -19,6 +19,7 @@ public class XOCLI {
 
         final ConsoleView consoleView = new ConsoleView();
         consoleView.show(game);
-
+        while (consoleView.move(game))
+            consoleView.show(game);
     }
 }
