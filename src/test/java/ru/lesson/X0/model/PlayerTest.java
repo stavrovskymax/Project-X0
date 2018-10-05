@@ -18,9 +18,9 @@ public class PlayerTest {
         assertEquals(expectedValue, actualValue);
     }
 
-    /*@Test
+    @Test
     public void testGetFigure() {
-        final Figure inputValue = Figure;
+        final Figure inputValue = Figure.X;
         final Figure expectedValue = inputValue;
 
         final Player player = new Player(null, inputValue);
@@ -28,5 +28,5 @@ public class PlayerTest {
         final Figure actualValue = player.getFigure();
 
         assertEquals(expectedValue, actualValue);
-    }*/
+    }
 }
