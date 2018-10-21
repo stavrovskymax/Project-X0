@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="69728358-2807-480a-a860-3eb055859dc1" name="Default" comment="" />
+    <list default="true" id="69728358-2807-480a-a860-3eb055859dc1" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/lesson/X0/XOCLI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/lesson/X0/XOCLI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/lesson/X0/view/ConsoleView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/lesson/X0/view/ConsoleView.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,11 +29,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ConsoleView.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ConsoleView.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/lesson/X0/view/ConsoleView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="117">
-              <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+            <state relative-caret-position="95">
+              <caret line="37" column="40" selection-start-line="37" selection-start-column="40" selection-end-line="37" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -40,17 +44,17 @@
       <file leaf-file-name="CurrentMoveController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/lesson/X0/controllers/CurrentMoveController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
+            <state relative-caret-position="-177">
               <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="XOCLI.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="XOCLI.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/lesson/X0/XOCLI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+            <state relative-caret-position="248">
+              <caret line="22" column="28" lean-forward="true" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -61,8 +65,8 @@
       <file leaf-file-name="MoveController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/lesson/X0/controllers/MoveController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="272">
+              <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -92,8 +96,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/lesson/X0/model/Player.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ru/lesson/X0/model/PlayerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/lesson/X0/model/exceptions/XOException.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/lesson/X0/model/exceptions/InvalidePointException.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/lesson/X0/model/exceptions/InvalidPointException.java" />
@@ -103,13 +105,15 @@
         <option value="$PROJECT_DIR$/src/main/java/ru/lesson/X0/controllers/MoveController.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/lesson/X0/model/GameTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/lesson/X0/model/FieldTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/lesson/X0/controllers/WinnerController.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/lesson/X0/controllers/WinnerControllerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/view/ConsoleView.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/lesson/X0/XOCLI.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/lesson/X0/controllers/CurrentMoveController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/lesson/X0/view/ConsoleView.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/lesson/X0/model/Field.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/lesson/X0/model/Player.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/lesson/X0/model/PlayerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/lesson/X0/controllers/WinnerController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/lesson/X0/XOCLI.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/lesson/X0/view/ConsoleView.java" />
       </list>
     </option>
   </component>
@@ -140,7 +144,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -227,7 +231,7 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -262,9 +266,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.XOCLI">
-    <configuration name="XOCLI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.lesson.X0.XOCLI" />
+  <component name="RunManager">
+    <configuration name="XOMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.lesson.X0.XOMain" />
       <module name="Project-X0" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -406,11 +410,11 @@
       <item itemvalue="JUnit.WinnerControllerTest.testGetWinnerWhenNoWinnerRow" />
       <item itemvalue="JUnit.WinnerControllerTest.testGetWinnerWhenNoWinnerColumn" />
       <item itemvalue="JUnit.All in Project-X0" />
-      <item itemvalue="Application.XOCLI" />
+      <item itemvalue="Application.XOMain" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.XOCLI" />
+        <item itemvalue="Application.XOMain" />
         <item itemvalue="JUnit.All in Project-X0" />
         <item itemvalue="JUnit.WinnerControllerTest.testGetWinnerWhenNoWinnerColumn" />
         <item itemvalue="JUnit.WinnerControllerTest" />
@@ -646,13 +650,31 @@
       <option name="project" value="LOCAL" />
       <updated>1538770421214</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="getFigure has been deleted">
+      <created>1540149424253</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1540149424253</updated>
+    </task>
+    <task id="LOCAL-00033" summary="getFigure has been deleted">
+      <created>1540149443052</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1540149443052</updated>
+    </task>
+    <task id="LOCAL-00034" summary="WinnerController have been updated. Created lambda expressions">
+      <created>1540150197165</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1540150197165</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="WinnerControllerTest - 2018.09.28 at 00h 29m 03s.xml">
-      <configuration name="WinnerControllerTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="WinnerControllerTest_testGetWinnerWhenNoWinnerRow - 2018.09.28 at 00h 33m 15s.xml">
       <configuration name="WinnerControllerTest.testGetWinnerWhenNoWinnerRow" configurationId="JUnit" />
     </history-entry>
@@ -680,30 +702,33 @@
     <history-entry file="All_in_Project-X0 - 2018.10.05 at 22h 57m 24s.xml">
       <configuration name="All in Project-X0" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="All_in_Project-X0 - 2018.10.21 at 22h 26m 06s.xml">
+      <configuration name="All in Project-X0" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="bottom" id="Messages" order="5" weight="0.3261944" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
       <window_info id="Image Layers" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.50075644" side_tool="true" weight="0.3294893" />
       <window_info anchor="right" id="Maven Projects" order="4" weight="0.32905295" />
+      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.31630972" />
       <window_info anchor="bottom" id="Version Control" order="3" sideWeight="0.49924356" weight="0.3294893" />
-      <window_info anchor="bottom" id="Run" order="7" weight="0.31630972" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.3294893" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Designer" order="1" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.14977308" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.19591528" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="2" />
-      <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" x="25" y="440" width="1310" height="241" id="Debug" order="6" weight="0.4003295" />
+      <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
       <window_info anchor="right" id="Coverage" order="7" side_tool="true" weight="0.32980332" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -711,21 +736,20 @@
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="4" />
-      <window_info anchor="bottom" id="Messages" order="5" weight="0.32656515" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="bottom" id="Terminal" order="0" weight="0.3294893" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.31630972" />
+      <window_info anchor="bottom" id="Version Control" order="3" sideWeight="0.49924356" weight="0.3294893" />
       <window_info anchor="right" id="Theme Preview" order="2" />
-      <window_info anchor="bottom" id="Messages" order="5" weight="0.32656515" />
       <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.22087745" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="3" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="10" />
-      <window_info anchor="bottom" id="Version Control" order="3" sideWeight="0.49924356" weight="0.3294893" />
+      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.31630972" />
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
       <window_info id="UI Designer" order="2" />
@@ -738,7 +762,7 @@
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info id="Capture Tool" order="3" />
       <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Terminal" order="0" weight="0.3294893" />
+      <window_info anchor="bottom" id="Messages" order="5" weight="0.32656515" />
       <window_info anchor="right" id="Maven Projects" order="4" weight="0.32905295" />
       <window_info id="Favorites" order="4" side_tool="true" />
     </layout-to-restore>
@@ -773,8 +797,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="InvalidPointException - created" />
-    <MESSAGE value="AlreadyOccupiedException - created" />
     <MESSAGE value="FieldTest - created" />
     <MESSAGE value="Field - tests for the Point added" />
     <MESSAGE value="TestField - testGetFigureWhenFigureIsNotSet added" />
@@ -798,7 +820,9 @@
     <MESSAGE value="Have been added move. Winner don't work" />
     <MESSAGE value="ConsoleView have been improved" />
     <MESSAGE value="PlayerTest have been fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="PlayerTest have been fixed" />
+    <MESSAGE value="getFigure has been deleted" />
+    <MESSAGE value="WinnerController have been updated. Created lambda expressions" />
+    <option name="LAST_COMMIT_MESSAGE" value="WinnerController have been updated. Created lambda expressions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1095,13 +1119,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/lesson/X0/model/Figure.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ru/lesson/X0/model/FieldTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1564">
@@ -1116,10 +1133,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/lesson/X0/controllers/WinnerController.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/lesson/X0/model/PlayerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="83" column="28" selection-start-line="83" selection-start-column="28" selection-end-line="83" selection-end-column="28" />
+        <state relative-caret-position="272">
+          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/lesson/X0/model/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -1130,31 +1154,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/lesson/X0/model/Player.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/lesson/X0/model/Figure.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/lesson/X0/controllers/WinnerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="26" column="20" lean-forward="true" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/lesson/X0/model/Game.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/lesson/X0/model/PlayerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-92">
-          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        <state relative-caret-position="374">
+          <caret line="22" column="27" lean-forward="true" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+          <folding>
+            <element signature="e#353#354#0" expanded="true" />
+            <element signature="e#383#384#0" expanded="true" />
+            <element signature="e#414#415#0" expanded="true" />
+            <element signature="e#442#443#0" expanded="true" />
+            <element signature="e#473#474#0" expanded="true" />
+            <element signature="e#500#501#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/lesson/X0/model/Field.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="32" column="33" lean-forward="true" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
+        <state relative-caret-position="476">
+          <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
           <folding>
             <element signature="e#420#421#0" expanded="true" />
             <element signature="e#452#453#0" expanded="true" />
@@ -1162,37 +1194,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/lesson/X0/controllers/CurrentMoveController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/lesson/X0/XOCLI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/lesson/X0/controllers/MoveController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="272">
+          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/lesson/X0/controllers/CurrentMoveController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-177">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/lesson/X0/view/ConsoleView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+        <state relative-caret-position="95">
+          <caret line="37" column="40" selection-start-line="37" selection-start-column="40" selection-end-line="37" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/lesson/X0/XOCLI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="22" column="28" lean-forward="true" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
