@@ -4,10 +4,11 @@ import ru.lesson.X0.model.Field;
 import ru.lesson.X0.model.Figure;
 import ru.lesson.X0.model.Game;
 import ru.lesson.X0.model.Player;
+import ru.lesson.X0.model.exceptions.InvalidPointException;
 import ru.lesson.X0.view.ConsoleView;
 
-public class XOCLI {
-    public static void main(final String[] args) {
+public class XOMain {
+    public static void main(final String[] args) throws InvalidPointException {
         final String name1 = "Max";
         final String name2 = "Slava";
 
