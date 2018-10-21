@@ -31,11 +31,11 @@ public class ConsoleView {
         }
     }
 
-    public boolean move(final Game game) {
+    public boolean move(final Game game) throws InvalidPointException {
         final Field field = game.getField();
         final Figure winner = winnerController.getWinner(field);
         if (winner != null) {
-            System.out.format("Winner is: %s\n", winner);
+            System.out.format("Winner is %s\n", winner);
             return false;
         }
         final Figure currentFigure = currentMoveController.currentFigure(field);
@@ -70,13 +70,13 @@ public class ConsoleView {
     }
 
     private void printLine(final Field field, final int x) {
-        for (int y=0; y < field.getSize(); y++) {
+        for (int y = 0; y < field.getSize(); y++) {
             if (y != 0)
                 System.out.print("|");
             System.out.print(" ");
             final Figure figure;
             try {
-                figure = field.getFigure(new Point(y, x));
+                figure = field.getFigure(new Point(x, y));
             } catch (InvalidPointException e) {
                 e.printStackTrace();
                 throw new RuntimeException(e);
