@@ -10,7 +10,7 @@ import ru.lesson.X0.view.ConsoleView;
 public class XOMain {
     public static void main(final String[] args) throws InvalidPointException {
         final String name1 = "Max";
-        final String name2 = "Slava";
+        final String name2 = "Sergey";
 
         final Player[] players = new Player[2];
         players[0] = new Player(name1, Figure.X);
